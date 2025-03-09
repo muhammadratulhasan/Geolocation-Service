@@ -83,7 +83,9 @@ python geolocation_service.py -i example.csv -m -l -p
 Create a visualization map:
 
 python geolocation_service.py -i example.csv -v
+
 Notes
+
 Ensure the input file (e.g., example.csv) exists in the same directory as the script or provide the correct path.
 The script currently uses mock implementations for database updates and geolocation processing. Replace these with actual logic as needed.
 For visualization, ensure you have the necessary libraries (e.g., matplotlib, folium) installed if you plan to implement real map generation.
